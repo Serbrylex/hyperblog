@@ -3,13 +3,13 @@ body{
 	font-family: "Arial";	
 	padding: 0;
 	margin: 0; 
-	/*background: #1e1f24;*/
-	
+	background: #1e1f24;	
+	height: 100vh;
 }
 
 .cabecera{
 	width: 70%;
-	height: auto;
+	height: 16%;
 	padding: 10px 0;
 	text-align: center;
 	border:1px solid black; 
@@ -19,7 +19,7 @@ body{
 	grid-template-columns: 70px 100px 400px auto;
 	background: #37488b;
 	align-items: center;
-
+	color:white;
 }
 .cabecera img{
 	grid-column: 1;
@@ -42,11 +42,11 @@ body{
 }
 .post{
 	width: 70%;
-	height: 500px;
-	color: black;
+	height: 70%;	
 	text-align: left;
 	margin: 0 auto;
 	border: 1px solid black;
+	background: white;
 }
 .post h1, p{
 	margin: 20px;
@@ -54,8 +54,16 @@ body{
 footer{
 	display: flex;
 	width: 70%;
-	height: auto;
+	height: 10%;
 	margin: auto;
 	border:1px solid black;
-	color: black;
+	color:white;
+	background: #37488b;	
+	align-items: center;
+	justify-content: center;
+}
+footer img{
+	width: 50px;
+	margin: 0 10px;
+	text-align: center;
 }
