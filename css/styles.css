@@ -3,11 +3,12 @@ body{
 	font-family: "Arial";	
 	padding: 0;
 	margin: 0; 
+	height: 100vh;
 }
 
 .cabecera{
 	width: 70%;
-	height: auto;
+	height: 16%;
 	padding: 10px 0;
 	text-align: center;
 	border:1px solid black; 
@@ -16,7 +17,7 @@ body{
 }
 .post{
 	width: 70%;
-	height: 500px;
+	height: 70%;
 	
 	text-align: left;
 	margin: 0 auto;
@@ -28,7 +29,16 @@ body{
 footer{
 	display: flex;
 	width: 70%;
-	height: auto;
+	height: 10%;
 	margin: auto;
 	border:1px solid black;
+	color:white;
+	background: #37488b;	
+	align-items: center;
+	justify-content: center;
+}
+footer img{
+	width: 100px;
+	margin: 0 10px;
+	text-align: center;
 }
