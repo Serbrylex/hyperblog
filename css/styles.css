@@ -3,6 +3,8 @@ body{
 	font-family: "Arial";	
 	padding: 0;
 	margin: 0; 
+	/*background: #1e1f24;*/
+	color: white;
 }
 
 .cabecera{
@@ -13,6 +15,30 @@ body{
 	border:1px solid black; 
 	background: white;
 	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 70px 100px 400px auto;
+	background: #37488b;
+	align-items: center;
+
+}
+.cabecera img{
+	grid-column: 1;
+	width: 100%;
+	margin: 0 10px;
+}
+.cabecera span{
+	grid-column: 2;	
+	font-size: 30px;
+	text-align: left;
+	align-items: center;
+	margin: 0 10px;	
+	font-weight: bold;
+
+}
+.cabecera h1{
+	grid-column: 3;
+	margin: 0 10px;
+	font-size: 20px;
 }
 .post{
 	width: 70%;
